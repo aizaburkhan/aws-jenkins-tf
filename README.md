@@ -1,5 +1,15 @@
 # terraform-aws-vpc-group-4
 
+<h2>The Usage</h2>
+
+```
+module "vpc-group-4" {
+  source  = "akadyrakunov/vpc-group-4/aws"
+  version = "0.0.2"
+}
+
+```
+
 
 <h2>Makefile CONFIG</h2>
 
@@ -60,7 +70,7 @@ destroy-all: virginia-destroy ohio-destroy california-destroy oregon-destroy
 
 ```
 
- <h2>The Usage</h2>
+ <h2>TBD</h2>
 The User has the option of 4 Regions where wants to install an Instance.
 
 TBD 
