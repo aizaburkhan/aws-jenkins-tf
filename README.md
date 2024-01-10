@@ -48,5 +48,16 @@ oregon-destroy:
 	terraform destroy -var-file regions/oregon.tfvars --auto-approve
  
  destroy-all: virginia-destroy ohio-destroy california-destroy oregon-destroy
+
  
+
+ THE USAGE
+
+    VPC
+    EC2
+    Jenkins Installation
+
+
+
+
  ```
