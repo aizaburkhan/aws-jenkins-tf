@@ -1,6 +1,3 @@
-# terraform-aws-vpc-group-4
-
-
 virginia:
 	terraform workspace new virginia || terraform workspace select virginia
 	terraform init
