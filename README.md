@@ -22,7 +22,7 @@ Create .tfvars files under the regions folder as below, and provide the region:
 ```
 module "vpc-group-4" {
   source  = "akadyrakunov/vpc-group-4/aws"
-  version = "0.0.2"
+  version = "1.0.1"
 }
 
 ```
