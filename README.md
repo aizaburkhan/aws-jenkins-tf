@@ -12,7 +12,7 @@ Create .tfvar files under regions folder as below, and provide the region:
 - virginia.tfvars    # save region = "us-east-1"
 - ohio.tfvars		 # save region = "us-east-2"
 - california.tfvars  # save region = "us-west-1"
-- oregin.tfvars		 # save region = "us-west-2"
+- oregon.tfvars		 # save region = "us-west-2"
 
 ```
 
@@ -100,7 +100,7 @@ destroy-all: virginia-destroy ohio-destroy california-destroy oregon-destroy
 
 ```
 
-<h2>What our terraorm include:</h2> 
+<h2>What our terraform include:</h2> 
 
 ```
 
