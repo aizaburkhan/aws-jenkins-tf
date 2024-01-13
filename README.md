@@ -3,15 +3,16 @@
 <h2>Precondition</h2>
 
 ```
+From your Bastion instance
 - Manually create an S3 bucket
 - Navigate to backend.tf and replace the S3 bucket name on the line 4
 - Manually create DynamoDB with "Partition key= LockID"
 - Navigate to backend.tf and replace the DynamoDB Table name on the line 7
 
-Create .tfvar files under regions folder as below, and provide the region:
-- virginia.tfvars    # save region = "us-east-1"
+Create .tfvars files under the regions folder as below, and provide the region:
+- virginia.tfvars        # save region = "us-east-1"
 - ohio.tfvars		 # save region = "us-east-2"
-- california.tfvars  # save region = "us-west-1"
+- california.tfvars      # save region = "us-west-1"
 - oregon.tfvars		 # save region = "us-west-2"
 
 ```
